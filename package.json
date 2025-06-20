@@ -4,8 +4,8 @@
   "description": "",
   "main": "debocaembocachatbot.js",
   "scripts": {
-    "start": "node debocaembocachatbot.js"
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node debocaembocachatbot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "DeBocaEmBoca",
