@@ -1,0 +1,10 @@
+/node_modules/.bin
+/node_modules/@types  # Definições de tipo para TypeScript, geralmente não necessárias em produção
+/node_modules/test     # Diretório de testes (se houver)
+/node_modules/docs     # Documentação
+/node_modules/*/test   # Pastas de teste dentro de módulos (algumas bibliotecas incluem seus próprios testes)
+/node_modules/*/example # Pastas de exemplo dentro de módulos
+/node_modules/*/examples # Pastas de exemplo dentro de módulos
+/node_modules/*/doc      # Pastas de documentação dentro de módulos
+/node_modules/*/.nyc_output # Cobertura de teste (se você estiver usando nyc)
+/node_modules/*/coverage # Cobertura de teste (se você estiver usando istanbul/jest/etc.)
