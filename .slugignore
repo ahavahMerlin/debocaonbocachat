@@ -8,3 +8,11 @@
 /node_modules/*/doc      # Pastas de documentação dentro de módulos
 /node_modules/*/.nyc_output # Cobertura de teste (se você estiver usando nyc)
 /node_modules/*/coverage # Cobertura de teste (se você estiver usando istanbul/jest/etc.)
+node_modules/
+.git/
+.DS_Store
+*.log
+*.psd
+*.pdf
+/test
+/spec
