@@ -1,0 +1,28 @@
+{
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "debocaembocachatbot.js",
+  "scripts": {
+    "start": "node debocaembocachatbot.js"
+  },
+  "keywords": [],
+  "author": "DeBocaEmBoca",
+  "license": "ISC",
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "puppeteer": "^24.8.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.30.0"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1",
+    "rimraf": "^6.0.1"
+  }
+}
