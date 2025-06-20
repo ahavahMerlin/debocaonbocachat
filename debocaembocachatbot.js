@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 const DATA_FILE = 'data.json';
 const path = require('path');
-const rimraf = require('rimraf'); // Importa a biblioteca rimraf
+//const rimraf = require('rimraf'); // Importa a biblioteca rimraf
 
 // Configuração das Variáveis de Ambiente (Use .env file)
 require('dotenv').config();
