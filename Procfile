@@ -1,1 +1,1 @@
-worker: node debocaembocachatbot.js
+web: node debocaembocachatbot.js
